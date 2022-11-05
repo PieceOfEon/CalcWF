@@ -189,7 +189,7 @@
             this.vvod.Name = "vvod";
             this.vvod.Size = new System.Drawing.Size(406, 37);
             this.vvod.TabIndex = 12;
-            this.vvod.Click += new System.EventHandler(this.label1_Click);
+            this.vvod.Click += new System.EventHandler(this.vvod_Click);
             // 
             // print
             // 
@@ -199,7 +199,8 @@
             this.print.Name = "print";
             this.print.Size = new System.Drawing.Size(406, 37);
             this.print.TabIndex = 13;
-            this.print.Text = "0+3+40523";
+            this.print.Text = "0";
+            this.print.Click += new System.EventHandler(this.print_Click);
             // 
             // button13
             // 
@@ -254,6 +255,7 @@
             this.button17.TabIndex = 18;
             this.button17.Text = "REZULT";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // Form1
             // 
